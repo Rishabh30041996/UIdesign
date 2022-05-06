@@ -1,0 +1,124 @@
+.page {
+  font-family: Roboto;
+}
+
+.col-md-4 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+a.navbar-brand {
+  margin-left: 12rem;
+}
+
+.navbar-toggler-icon {
+  margin-right: 12rem;
+}
+
+.page__content {
+  background-color: #c7c5c5;
+  text-align: center;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content__para {
+  font-size: 0.7rem;
+}
+
+.content__heading {
+  padding-top: 2rem;
+  color: rgba(13, 13, 192, 0.801);
+}
+
+.fa.fa-bullhorn {
+  padding: 6px;
+  font-size: 28px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #c7c5c5;
+  color: rgba(13, 13, 192, 0.801);
+}
+
+.fa.fa-users {
+  padding: 6px;
+  font-size: 28px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #c7c5c5;
+  color: rgba(13, 13, 192, 0.801);
+}
+
+.card-title {
+  color: rgba(13, 13, 192, 0.801);
+  margin-top: 1rem;
+}
+
+.card-text {
+  font-size: 0.8rem;
+}
+
+.row {
+  max-width: 80%;
+  padding-bottom: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page__footer {
+  background-color: #3f3d3d;
+  max-width: 90%;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.footer {
+  color: #c7c5c5;
+}
+
+.footer p {
+  font-size: 0.7rem;
+}
+
+.fa {
+  padding: 6px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  display: revert;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #881265;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  a.navbar-brand {
+    margin-left: 2rem;
+  }
+  .navbar-toggler-icon {
+    margin-right: 2rem;
+  }
+}
+/*# sourceMappingURL=businessTechnology.css.map */

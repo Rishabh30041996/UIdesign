@@ -1,0 +1,122 @@
+$text_color : rgba(13, 13, 192, 0.801);
+
+$spacing: 2rem;
+
+$lightgrey_color: rgb(199, 197, 197);
+
+$icon_color: white;
+
+$para_fontsize: 0.7rem;
+
+$center_text: center;
+
+@mixin icon{
+    padding: 6px;
+    font-size: 28px;
+    text-align: $center_text;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: $lightgrey_color;
+    color: $text_color;
+}
+
+@mixin auto_margin{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page{
+    font-family: Roboto;
+}
+
+//Header Styling
+.col-md-4{
+    padding-left: 0;
+    padding-right: 0;
+}
+a.navbar-brand{
+    margin-left: 12rem;
+}
+.navbar-toggler-icon{
+    margin-right: 12rem;
+}
+
+//Content Styling
+.page__content{
+    background-color: $lightgrey_color;
+    text-align: $center_text;
+    max-width: 90%;
+    @include auto_margin;
+}
+.content__para{
+    font-size: 0.7rem;
+}
+.content__heading{
+    padding-top: $spacing;
+    color: $text_color;
+}
+.fa.fa-bullhorn{
+    @include icon;
+}
+.fa.fa-users{
+    @include icon;
+}
+.card-title{
+    color: $text_color;
+    margin-top: 1rem;
+}
+.card-text{
+    font-size: 0.8rem;
+}
+.row{
+    max-width: 80%; 
+    padding-bottom: 6rem;
+    @include auto_margin;
+}
+
+// Footer Styling
+.page__footer{
+    background-color: rgb(63, 61, 61);
+    max-width: 90%;
+    padding-bottom: $spacing;
+    padding-top: $spacing;
+    text-align:$center_text;
+}
+.footer{
+    color: $lightgrey_color;
+    p{
+        font-size: 0.7rem;
+    }
+}
+.fa {
+    padding: 6px;
+    font-size: 14px;
+    text-align: $center_text;
+    text-decoration: none;
+    border-radius: 50%;
+    display: revert;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: $icon_color;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: $icon_color;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: $icon_color;
+}
+.fa-instagram {
+    background: #881265;
+    color: $icon_color;
+}
+@media (max-width: 600px){
+    a.navbar-brand{
+        margin-left: $spacing;
+    }
+    .navbar-toggler-icon{
+        margin-right: $spacing;
+    }
+}
